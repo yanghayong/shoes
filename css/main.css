@@ -1,0 +1,316 @@
+/* width : 1320px */
+/* 패딩 양쪽으로 20px, 컨텐츠는 1280px */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Poppins:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 18px;
+  width: 256px;
+  height: 64px;
+  border: none;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+}
+
+.btn.dark {
+  background-color: #111;
+  color: #fff;
+}
+
+.center_box {
+  width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav li a {
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: 400;
+}
+
+.top_menu {
+  display: flex;
+}
+
+.top_menu li:last-child {
+  margin-left: 40px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.visual {
+  background-color: #f5f5f5;
+}
+
+.inner {
+  height: 730px;
+  background-image: url("/images/main\ visual_img.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.visual .detail_text {
+  position: absolute;
+  top: 357px;
+  left: 80px;
+}
+
+.visual .detail_text h2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.visual .detail_text p {
+  margin-top: 15px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.visual .visual_btn {
+  margin-left: 80px;
+}
+
+.visual .visual_btn .btn.dark {
+  top: 556px;
+  left: 80px;
+}
+
+/* product_01 */
+.product_01 {
+  margin-top: 104px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_01 li {
+  background-color: #111;
+  width: 632px;
+  height: 642px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.product_01 li h2 {
+  width: 384px;
+  height: 73px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  padding-top: 51px;
+  padding-left: 48px;
+  position: absolute;
+  top: 51px;
+  left: 48px;
+}
+
+.product_01 li a {
+  color: #fff;
+  position: absolute;
+  bottom: 37px;
+  left: 48px;
+}
+
+.product_01 li .arrow {
+  display: flex;
+  align-items: center;
+}
+
+.product_01 li a span {
+  margin-right: 12px;
+}
+
+/* product_new */
+.product_new .product_title {
+  font-family: "Poppins", sans-serif;
+}
+
+.product_new {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.product_new .title {
+  text-align: left;
+}
+
+.product_new .title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 26px;
+  line-height: 40px;
+}
+
+.product_new .items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.product_new .items li .photo {
+  width: 305px;
+  height: 305px;
+  background-color: #c4c4c4;
+}
+
+.product_new .items li .text h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_new .items li .text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* product_top */
+.product_top .product_title {
+  font-family: "Poppins", sans-serif;
+}
+
+.product_top {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.product_top .title {
+  text-align: left;
+}
+
+.product_top .title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 26px;
+  line-height: 40px;
+  padding-bottom: 26px;
+}
+
+.product_top .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_top .items li .photo {
+  width: 305px;
+  height: 305px;
+  background-color: #c4c4c4;
+}
+
+.product_top .items li .text h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_top .items li .text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* infos */
+.infos {
+  margin-top: 220px;
+  margin-bottom: 150px;
+}
+
+.infos .title {
+  text-align: center;
+  margin-bottom: 169px;
+  display: flex;
+  width: 298px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.infos .title h4 {
+  font-family: "Montserrat", sans-serif;
+  width: 247px;
+  height: 80;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.infos .title p {
+  font-size: 18px;
+  display: flex;
+  margin-top: 11px;
+  margin-bottom: 27px;
+}
+
+.infos .btn {
+  color: #111;
+  width: 256px;
+  height: 64px;
+  background-color: #fff;
+  font-size: 18px;
+  border: 1px solid #111;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_info .footer_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_icon {
+  display: flex;
+}
